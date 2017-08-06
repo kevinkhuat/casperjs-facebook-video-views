@@ -1,0 +1,17 @@
+{
+  "name": "lambda-node-phantom",
+  "version": "1.0.0",
+  "description": "scrape views from facebook video IDs",
+  "main": "index.js",
+  "scripts": {
+    "setup": "./node_modules/.bin/node-lambda setup",
+    "test": "./node_modules/.bin/node-lambda run",
+    "package": "./node_modules/.bin/node-lambda package",
+    "deploy": "./node_modules/.bin/node-lambda deploy"
+  },
+  "author": "Tyler Pachal",
+  "license": "MIT",
+  "dependencies": {
+    "casperjs": "^1.1.3"
+  }
+}
